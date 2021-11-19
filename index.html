@@ -49,6 +49,15 @@
             <a-entity camera></a-entity>
         </a-scene>
     
+    <script>
+      window.addEventListener('click', function () {
+        var video = document.querySelector('#pfic_ar');
+        if (video.paused == true) {
+          video.play();
+          } else {
+          video.pause();
+        }
+      }, false);
      
     </script> 
     
